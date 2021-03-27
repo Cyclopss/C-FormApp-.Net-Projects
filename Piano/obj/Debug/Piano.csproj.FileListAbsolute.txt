@@ -1,0 +1,10 @@
+C:\Users\Nihad\source\repos\Piano\bin\Debug\Piano.exe.config
+C:\Users\Nihad\source\repos\Piano\bin\Debug\Piano.exe
+C:\Users\Nihad\source\repos\Piano\bin\Debug\Piano.pdb
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.csprojAssemblyReference.cache
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.piano.resources
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.Properties.Resources.resources
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.csproj.GenerateResource.cache
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.csproj.CoreCompileInputs.cache
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.exe
+C:\Users\Nihad\source\repos\Piano\obj\Debug\Piano.pdb
