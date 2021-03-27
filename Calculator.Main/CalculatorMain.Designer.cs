@@ -162,7 +162,7 @@ namespace Calculator.Main
             this.devideBtn.TabIndex = 8;
             this.devideBtn.Text = "÷";
             this.devideBtn.UseVisualStyleBackColor = false;
-            this.devideBtn.Click += new System.EventHandler(this.devideBtn_Click);
+            this.devideBtn.Click += new System.EventHandler(this.PlusMinusMultiplyDivideButtonHandler);
             // 
             // oneBtn
             // 
@@ -176,7 +176,7 @@ namespace Calculator.Main
             this.oneBtn.TabIndex = 9;
             this.oneBtn.Text = "1";
             this.oneBtn.UseVisualStyleBackColor = false;
-            this.oneBtn.Click += new System.EventHandler(this.oneBtn_Click);
+            this.oneBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // twoBtn
             // 
@@ -190,7 +190,7 @@ namespace Calculator.Main
             this.twoBtn.TabIndex = 10;
             this.twoBtn.Text = "2";
             this.twoBtn.UseVisualStyleBackColor = false;
-            this.twoBtn.Click += new System.EventHandler(this.twoBtn_Click);
+            this.twoBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // threeBtn
             // 
@@ -204,7 +204,7 @@ namespace Calculator.Main
             this.threeBtn.TabIndex = 11;
             this.threeBtn.Text = "3";
             this.threeBtn.UseVisualStyleBackColor = false;
-            this.threeBtn.Click += new System.EventHandler(this.threeBtn_Click);
+            this.threeBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // fourBtn
             // 
@@ -218,7 +218,7 @@ namespace Calculator.Main
             this.fourBtn.TabIndex = 12;
             this.fourBtn.Text = "4";
             this.fourBtn.UseVisualStyleBackColor = false;
-            this.fourBtn.Click += new System.EventHandler(this.fourBtn_Click);
+            this.fourBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // fiveBtn
             // 
@@ -232,7 +232,7 @@ namespace Calculator.Main
             this.fiveBtn.TabIndex = 13;
             this.fiveBtn.Text = "5";
             this.fiveBtn.UseVisualStyleBackColor = false;
-            this.fiveBtn.Click += new System.EventHandler(this.fiveBtn_Click);
+            this.fiveBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // sixBtn
             // 
@@ -246,7 +246,7 @@ namespace Calculator.Main
             this.sixBtn.TabIndex = 14;
             this.sixBtn.Text = "6";
             this.sixBtn.UseVisualStyleBackColor = false;
-            this.sixBtn.Click += new System.EventHandler(this.sixBtn_Click);
+            this.sixBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // sevenBtn
             // 
@@ -260,7 +260,7 @@ namespace Calculator.Main
             this.sevenBtn.TabIndex = 15;
             this.sevenBtn.Text = "7";
             this.sevenBtn.UseVisualStyleBackColor = false;
-            this.sevenBtn.Click += new System.EventHandler(this.sevenBtn_Click);
+            this.sevenBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // eightBtn
             // 
@@ -274,7 +274,7 @@ namespace Calculator.Main
             this.eightBtn.TabIndex = 16;
             this.eightBtn.Text = "8";
             this.eightBtn.UseVisualStyleBackColor = false;
-            this.eightBtn.Click += new System.EventHandler(this.eightBtn_Click);
+            this.eightBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // nineBtn
             // 
@@ -288,7 +288,7 @@ namespace Calculator.Main
             this.nineBtn.TabIndex = 17;
             this.nineBtn.Text = "9";
             this.nineBtn.UseVisualStyleBackColor = false;
-            this.nineBtn.Click += new System.EventHandler(this.nineBtn_Click);
+            this.nineBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // zeroBtn
             // 
@@ -302,7 +302,7 @@ namespace Calculator.Main
             this.zeroBtn.TabIndex = 18;
             this.zeroBtn.Text = "0";
             this.zeroBtn.UseVisualStyleBackColor = false;
-            this.zeroBtn.Click += new System.EventHandler(this.zeroBtn_Click);
+            this.zeroBtn.Click += new System.EventHandler(this.NumberButtonClickHandler);
             // 
             // multiplyBtn
             // 
@@ -316,7 +316,7 @@ namespace Calculator.Main
             this.multiplyBtn.TabIndex = 19;
             this.multiplyBtn.Text = "*";
             this.multiplyBtn.UseVisualStyleBackColor = false;
-            this.multiplyBtn.Click += new System.EventHandler(this.multiplyBtn_Click);
+            this.multiplyBtn.Click += new System.EventHandler(this.PlusMinusMultiplyDivideButtonHandler);
             // 
             // minusBtn
             // 
@@ -330,7 +330,7 @@ namespace Calculator.Main
             this.minusBtn.TabIndex = 20;
             this.minusBtn.Text = "-";
             this.minusBtn.UseVisualStyleBackColor = false;
-            this.minusBtn.Click += new System.EventHandler(this.minusBtn_Click);
+            this.minusBtn.Click += new System.EventHandler(this.PlusMinusMultiplyDivideButtonHandler);
             // 
             // plusBtn
             // 
@@ -344,7 +344,7 @@ namespace Calculator.Main
             this.plusBtn.TabIndex = 21;
             this.plusBtn.Text = "+";
             this.plusBtn.UseVisualStyleBackColor = false;
-            this.plusBtn.Click += new System.EventHandler(this.plusBtn_Click);
+            this.plusBtn.Click += new System.EventHandler(this.PlusMinusMultiplyDivideButtonHandler);
             // 
             // equalBtn
             // 
@@ -366,13 +366,13 @@ namespace Calculator.Main
             this.processLbl.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.processLbl.Location = new System.Drawing.Point(18, 72);
             this.processLbl.Name = "processLbl";
-            this.processLbl.Size = new System.Drawing.Size(39, 32);
+            this.processLbl.Size = new System.Drawing.Size(30, 25);
             this.processLbl.TabIndex = 24;
             this.processLbl.Text = "...";
             // 
             // CalculatorMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(282, 424);
