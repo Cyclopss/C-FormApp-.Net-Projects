@@ -14,172 +14,34 @@ namespace Calculator.Main
     {
         double num1, num2;
         string mainResult;
+
         public CalculatorMain()
         {
             InitializeComponent();
         }
 
-        private void oneBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text =="0")
-            {
-                resultTbox.Text = "1";
-            }
-            else
-            {
-                resultTbox.Text += "1";
-            }
-        }
+     
 
-        private void twoBtn_Click(object sender, EventArgs e)
+        private void NumberButtonClickHandler(object sender, EventArgs e)
         {
-            
+            string buttonValue = (sender as Button).Text;
+
             if (resultTbox.Text == "0")
             {
-                resultTbox.Text = "2";
+                resultTbox.Text = buttonValue;
             }
             else
             {
-                resultTbox.Text += "2";
-            }
-
-        }
-
-        private void threeBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "3";
-            }
-            else
-            {
-                resultTbox.Text += "3";
+                resultTbox.Text += buttonValue;
             }
         }
 
-        private void fourBtn_Click(object sender, EventArgs e)
+        private void PlusMinusMultiplyDivideButtonHandler(object sender, EventArgs e)
         {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "4";
-            }
-            else
-            {
-                resultTbox.Text += "4";
-            }
-        }
-
-        private void fiveBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "5";
-            }
-            else
-            {
-                resultTbox.Text += "5";
-            }
-        }
-
-        private void sixBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "6";
-            }
-            else
-            {
-                resultTbox.Text += "6";
-            }
-        }
-
-        private void sevenBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "7";
-            }
-            else
-            {
-                resultTbox.Text += "7";
-            }
-        }
-
-        private void eightBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "8";
-            }
-            else
-            {
-                resultTbox.Text += "8";
-            }
-        }
-
-        private void nineBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "9";
-            }
-            else
-            {
-                resultTbox.Text += "9";
-            }
-        }
-
-        private void zeroBtn_Click(object sender, EventArgs e)
-        {
-            
-            if (resultTbox.Text == "0")
-            {
-                resultTbox.Text = "0";
-            }
-            else
-            {
-                resultTbox.Text += "0";
-            }
-        }
-
-
-        private void plusBtn_Click(object sender, EventArgs e)
-        {
+            string buttonValue = (sender as Button).Text;
             num1 = Convert.ToDouble(resultTbox.Text);
-            mainResult = "+";
-            processLbl.Text = resultTbox.Text + "+";
-            resultTbox.Text = "0";
-        }
-
-        private void minusBtn_Click(object sender, EventArgs e)
-        {
-            num1 = Convert.ToDouble(resultTbox.Text);
-            mainResult = "-";
-            processLbl.Text = resultTbox.Text + "-";
-            resultTbox.Text = "0";
-        }
-
-        private void multiplyBtn_Click(object sender, EventArgs e)
-        {
-            num1 = Convert.ToDouble(resultTbox.Text);
-            mainResult = "*";
-            processLbl.Text = resultTbox.Text + "*";
-            resultTbox.Text = "0";
-        }
-
-        private void devideBtn_Click(object sender, EventArgs e)
-        {
-            num1 = Convert.ToDouble(resultTbox.Text);
-            mainResult = "÷";
-            processLbl.Text = resultTbox.Text + "÷";
+            mainResult = buttonValue;
+            processLbl.Text = resultTbox.Text + buttonValue;
             resultTbox.Text = "0";
         }
 

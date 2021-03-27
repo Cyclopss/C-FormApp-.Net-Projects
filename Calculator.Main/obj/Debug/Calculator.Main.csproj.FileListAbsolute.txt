@@ -8,3 +8,13 @@ C:\Users\Nihad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.csproj.Gen
 C:\Users\Nihad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.csproj.CoreCompileInputs.cache
 C:\Users\Nihad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.exe
 C:\Users\Nihad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.pdb
+C:\Users\Muhammad\source\repos\Calculator.Main\bin\Debug\Calculator.Main.exe.config
+C:\Users\Muhammad\source\repos\Calculator.Main\bin\Debug\Calculator.Main.exe
+C:\Users\Muhammad\source\repos\Calculator.Main\bin\Debug\Calculator.Main.pdb
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.csprojAssemblyReference.cache
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.CalculatorMain.resources
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.Properties.Resources.resources
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.csproj.GenerateResource.cache
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.exe
+C:\Users\Muhammad\source\repos\Calculator.Main\obj\Debug\Calculator.Main.pdb
