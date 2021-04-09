@@ -1,0 +1,12 @@
+C:\Users\Nihad\source\repos\LogUp\bin\Debug\LogUp.exe.config
+C:\Users\Nihad\source\repos\LogUp\bin\Debug\LogUp.exe
+C:\Users\Nihad\source\repos\LogUp\bin\Debug\LogUp.pdb
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.csprojAssemblyReference.cache
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.ContactUs.resources
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.Properties.Resources.resources
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.SignUp.resources
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.csproj.GenerateResource.cache
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.csproj.CoreCompileInputs.cache
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.exe
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.pdb
+C:\Users\Nihad\source\repos\LogUp\obj\Debug\LogUp.Login.resources
